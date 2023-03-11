@@ -13,8 +13,6 @@ int main(){
         while(star--) {
             cout<<"*";
         }
-        
         cout<<endl;
     }
-  
 }

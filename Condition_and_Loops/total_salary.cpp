@@ -2,7 +2,6 @@
 using namespace std;
 
 int main() {
-	// Write your code here
     int basic;
     cin>>basic;
     char grade;
@@ -25,8 +24,6 @@ int main() {
         allowance = 1300;
     }
     int gross;
- 
     gross = round(basic + hra + da + allowance - pf);
-    
     cout<<gross<<endl;
 }

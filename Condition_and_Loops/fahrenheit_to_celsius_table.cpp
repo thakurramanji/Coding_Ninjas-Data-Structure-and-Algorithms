@@ -1,7 +1,6 @@
 #include<iostream>
 using namespace std;
 
-
 int main(){
     int st,en,gap;
     cin>>st>>en>>gap;
@@ -10,5 +9,4 @@ int main(){
         cout<<st<<" "<<cel<<endl;
         st+= gap;
     }
-  
 }

@@ -2,7 +2,6 @@
 using namespace std;
 
 int main() {
-	// Write your code here
 	long n;
     cin>>n;
     int sum1=0;
@@ -17,6 +16,5 @@ int main() {
         
         n=n/10;
     }
-    
     cout<<sum2<<" "<<sum1<<endl;
 }
