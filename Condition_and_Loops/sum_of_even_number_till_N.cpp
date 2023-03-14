@@ -1,7 +1,6 @@
 #include<iostream>
 using namespace std;
 
-
 int main(){
     int n;
     cin>>n;
@@ -11,7 +10,5 @@ int main(){
         sum+= d;
         d=d+2;
     }
-    
     cout<<sum<<endl;
-  
 }
