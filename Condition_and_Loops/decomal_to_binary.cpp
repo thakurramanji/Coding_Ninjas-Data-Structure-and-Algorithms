@@ -1,24 +1,3 @@
-// #include<iostream>
-// using namespace std;
-
-// int main() {
-// 	// Write your code here
-// 	int n;
-//     cin>>n;
-    
-//     long res=0;
-//     for(int i=31;i>=0;i--) {
-//         int k = n>>i;
-//         if(k&1)
-//             res=res*10 +1;
-//         else
-//             res=res*10 +0;
-//     }
-    
-//     cout<<res<<endl;
-// }
-
-
 #include<iostream>
 using namespace std;
 
@@ -36,8 +15,5 @@ int main() {
             n=n/2;
             pv=pv*10;
             }
-           
-        
     cout<<ans<<endl;
 }
-
