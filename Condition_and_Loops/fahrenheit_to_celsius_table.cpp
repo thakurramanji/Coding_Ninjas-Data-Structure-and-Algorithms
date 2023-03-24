@@ -9,5 +9,4 @@ int main(){
         cout<<st<<" "<<cel<<endl;
         st+= gap;
     }
-  
 }
