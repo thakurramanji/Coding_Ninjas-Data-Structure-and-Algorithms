@@ -5,25 +5,20 @@ int main(){
     int n;
     cin>>n;
     
-    int largest = INT_MIN; 
-    
-    int secondLargest = INT_MIN;          
+    int largest = INT_MIN;
+    int secondLargest = INT_MIN;
     int a;
     while( n > 0) {
-        
-        cin>>a;  
+        cin>>a;
         
         if(a > largest) {
-            secondLargest = largest;  
-            largest = a; // 9
+            secondLargest = largest;
+            largest = a;
         }
         else if(a > secondLargest && a != largest) {
             secondLargest = a;
         }
-        
-        n--;  
+        n--;
     }
     cout<<secondLargest;
 }
-
-
