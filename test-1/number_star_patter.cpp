@@ -38,8 +38,4 @@ int main(){
         star= star + 2;
         n--;
     }
-    
-
 }
-
-
