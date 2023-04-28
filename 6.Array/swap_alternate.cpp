@@ -1,6 +1,5 @@
 void swapAlternate(int *arr, int size)
 {
-    //Write your code here
     int p;
     if (size%2==0)
         p=size-2;
