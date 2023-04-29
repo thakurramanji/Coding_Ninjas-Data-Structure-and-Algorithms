@@ -1,0 +1,26 @@
+void sortZeroesAndOne(int *input, int size)
+{
+    //Write your code here
+    int l = 0;
+    int r = size-1;
+    while(l<r) {
+        if(input[l]==1 && input[r]==0) {
+            int d = input[l];
+            input[l]=input[r];
+            input[r]=d;
+        }
+        
+        else if(input[l]==1 && input[r]==1) {
+            r--;
+        }
+        else if(input[l]==0 && input[r]==1)
+        {
+            l++;
+            r--;
+        }
+        else if(input[l]==0 && input[r]==0)
+        {
+            l++;
+        }
+    }
+}
